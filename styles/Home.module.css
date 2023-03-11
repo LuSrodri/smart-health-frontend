@@ -10,3 +10,18 @@
 .main h1 {
   text-align: center;
 }
+
+.main form.signup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.main form.signup label {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}

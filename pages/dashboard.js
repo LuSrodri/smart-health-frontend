@@ -2,7 +2,7 @@ import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
 
-export default function Home() {
+export default function Dashboard() {
   return (
     <>
       <Head>
@@ -12,12 +12,11 @@ export default function Home() {
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <main className={styles.main}>
-        <h1>Smart Health</h1>
+        <h1>Olá {"usuário"}, seja muito bem-vindo ao Smart Health</h1>
         <p>
           Smart Health -  Plataforma Web para Armazenamento, Acompanhamento e Compartilhamento Seguro de Resultados de Exames e Informações de Saúde.
         </p>
-        <Link className='button' href="/login" >Entrar</Link>
-        <Link className='button' href="/signup" >Registrar-se</Link>
+        <Link className='button exit' href={"/"} >Sair</Link>
       </main>
     </>
   )
